@@ -2,13 +2,35 @@
   "name": "personal-project",
   "version": "0.1.0",
   "private": true,
+  "main": "server/index",
+  "proxy": "http://localhost:3434",
+  "nodemonConfig": {
+    "ignore": [
+      "src/*",
+      "public/*"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "massive": "^6.3.0",
+    "node-sass": "^4.13.1",
+    "nodemailer": "^6.4.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.0.5",
+    "sass": "^1.26.3",
+    "stripe": "^8.47.0"
   },
   "scripts": {
     "start": "react-scripts start",

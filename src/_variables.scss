@@ -1,0 +1,60 @@
+$primary-color-1: #3bffde;
+$primary-color-2: #3b5cff;
+$primary-color-3: #8d3bff;
+$seconday-color-1: #6379e6;
+
+
+@mixin category-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+@mixin landing-page {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin wrap-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@mixin black-font {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+}
+
+@mixin white-font {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+@mixin flex-relative {
+    display: flex;
+    position: relative;
+}
+
+@mixin row-evenspace {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+}
+
+@mixin product-margins {
+            display: flex;
+            justify-content: flex-start;
+            margin: 1.5%;
+}
+
